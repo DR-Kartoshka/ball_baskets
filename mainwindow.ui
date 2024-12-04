@@ -128,7 +128,7 @@ QGroupBox:title {
       <string>Красных шаров в корзине</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_4">
+    <widget class="QLabel" name="label_Probability">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -213,7 +213,7 @@ QPushButton:pressed {
       <string>Переложить шар в корзину 2</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_16">
+    <widget class="QLabel" name="label_TotalBalls1">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -237,7 +237,7 @@ font-weight: bold; </string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_17">
+    <widget class="QLabel" name="label_countBlue1">
      <property name="geometry">
       <rect>
        <x>200</x>
@@ -261,7 +261,7 @@ font-weight: bold; </string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_18">
+    <widget class="QLabel" name="label_countRed1">
      <property name="geometry">
       <rect>
        <x>220</x>
@@ -285,7 +285,7 @@ font-weight: bold; </string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_19">
+    <widget class="QLabel" name="label_probabilityBlue1">
      <property name="geometry">
       <rect>
        <x>250</x>
@@ -309,7 +309,7 @@ font-weight: bold; </string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_20">
+    <widget class="QLabel" name="label_probabilityRed1">
      <property name="geometry">
       <rect>
        <x>280</x>
@@ -521,7 +521,7 @@ QPushButton:pressed {
       <string>Переложить шар в корзину 1</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_22">
+    <widget class="QLabel" name="label_TotalBalls2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -545,7 +545,7 @@ font-weight: bold; </string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_23">
+    <widget class="QLabel" name="label_countBlue2">
      <property name="geometry">
       <rect>
        <x>190</x>
@@ -569,7 +569,7 @@ font-weight: bold; </string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_24">
+    <widget class="QLabel" name="label_countRed2">
      <property name="geometry">
       <rect>
        <x>210</x>
@@ -593,7 +593,7 @@ font-weight: bold; </string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_25">
+    <widget class="QLabel" name="label_probabilityBlue2">
      <property name="geometry">
       <rect>
        <x>250</x>
@@ -617,7 +617,7 @@ font-weight: bold; </string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_26">
+    <widget class="QLabel" name="label_probabilityRed2">
      <property name="geometry">
       <rect>
        <x>280</x>
@@ -818,7 +818,7 @@ font-weight: bold;
       <string>Вероятность достать 2 красных шара:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_29">
+    <widget class="QLabel" name="label_probabilityTwoRed2">
      <property name="geometry">
       <rect>
        <x>290</x>
@@ -971,7 +971,7 @@ QPushButton:pressed {
       <string>Извлечь 2 шара </string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_48">
+    <widget class="QLabel" name="label_probabilityTwoBlue2">
      <property name="geometry">
       <rect>
        <x>270</x>
@@ -995,7 +995,7 @@ font-weight: bold; </string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_49">
+    <widget class="QLabel" name="label_probabilityBlueRed2">
      <property name="geometry">
       <rect>
        <x>360</x>
@@ -1019,7 +1019,7 @@ font-weight: bold; </string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_50">
+    <widget class="QLabel" name="label_probabilityTwoBlue1_1">
      <property name="geometry">
       <rect>
        <x>700</x>
@@ -1043,7 +1043,7 @@ font-weight: bold; </string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_51">
+    <widget class="QLabel" name="label_probabilityTwoRed1_1">
      <property name="geometry">
       <rect>
        <x>720</x>
@@ -1067,7 +1067,7 @@ font-weight: bold; </string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_66">
+    <widget class="QLabel" name="label_probabilityBlueRed1_1">
      <property name="geometry">
       <rect>
        <x>790</x>
@@ -1113,7 +1113,7 @@ font-weight: bold; </string>
       <string>|</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_68">
+    <widget class="QLabel" name="label_probabilityTwoBlue1_2">
      <property name="geometry">
       <rect>
        <x>790</x>
@@ -1137,7 +1137,7 @@ font-weight: bold; </string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_69">
+    <widget class="QLabel" name="label_probabilityTwoRed1_2">
      <property name="geometry">
       <rect>
        <x>790</x>
@@ -1161,7 +1161,7 @@ font-weight: bold; </string>
       <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_70">
+    <widget class="QLabel" name="label_probabilityBlueRed1_2">
      <property name="geometry">
       <rect>
        <x>860</x>
@@ -1207,7 +1207,7 @@ font-weight: bold; </string>
       <string>|</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_72">
+    <widget class="QLabel" name="label_70">
      <property name="geometry">
       <rect>
        <x>850</x>
@@ -1251,7 +1251,7 @@ font-weight: bold; </string>
       <string>Последнее действие:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_21">
+    <widget class="QLabel" name="label_actionText">
      <property name="geometry">
       <rect>
        <x>190</x>

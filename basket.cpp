@@ -11,8 +11,6 @@ Ball Basket::removeRandomBall() {
         if (balls.empty()) {
             throw std::runtime_error("Basket is empty!");
         }
-
-        // Устанавливаем seed для rand() (разная последовательность при каждом запуске)
         int index = rand() % balls.size(); // выбор случайного интекса
 
         //удаление элемента
@@ -20,6 +18,7 @@ Ball Basket::removeRandomBall() {
         balls.erase(balls.begin() + index); //(balls.begin() + index) — это итератор, указывающий на index-й элемент вектора / метод erase() удаляет элемент
         return removedBall;
 }
+
 // Получить общее количество шаров
 int Basket::getTotalBalls() {
     return balls.size();
